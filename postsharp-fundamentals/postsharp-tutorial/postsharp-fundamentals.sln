@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{89505C
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookMaIDoneWroteAConsoleApp", "src\LookMaIDoneWroteAConsoleApp\LookMaIDoneWroteAConsoleApp.csproj", "{65C63C6D-F08D-422C-84A9-FDA91802D63D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "src\GettingStarted\GettingStarted.csproj", "{65C63C6D-F08D-422C-84A9-FDA91802D63D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bi.Shared", "src\bi.Shared\bi.Shared.csproj", "{89512DF5-5EF0-44E9-AC51-2308AE3EF37E}"
 EndProject
