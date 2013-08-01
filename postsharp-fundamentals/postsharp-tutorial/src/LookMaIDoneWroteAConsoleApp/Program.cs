@@ -16,14 +16,26 @@ namespace LookMaIDoneWroteAConsoleApp
             Console.ReadKey();
         }
 
+        [Trace("Category A")]
         private static void SayGoodbye()
         {
             Console.WriteLine("Goodbye");
         }
 
+        [Trace("Category A")]
         private static void SayHello()
         {
             Console.WriteLine("Hello");
+        }
+    }
+
+    internal class TraceAttribute : Attribute
+    {
+        public string Category { get; private set; }
+
+        public TraceAttribute(string category)
+        {
+            Category = category;
         }
     }
 }
