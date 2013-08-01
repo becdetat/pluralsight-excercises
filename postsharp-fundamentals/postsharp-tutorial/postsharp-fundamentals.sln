@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bi.Shared", "src\bi.Shared\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inotifypropertychanged", "src\inotifypropertychanged\inotifypropertychanged.csproj", "{5FB3DBE1-5E32-429C-92F7-B239FE6FDFD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetailedTracing", "src\DetailedTracing\DetailedTracing.csproj", "{8D93B1AA-AECF-4A3A-8968-F516540D6859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{5FB3DBE1-5E32-429C-92F7-B239FE6FDFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB3DBE1-5E32-429C-92F7-B239FE6FDFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB3DBE1-5E32-429C-92F7-B239FE6FDFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
