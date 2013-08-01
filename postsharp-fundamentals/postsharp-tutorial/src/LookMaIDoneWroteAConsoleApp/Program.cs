@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,8 @@ namespace LookMaIDoneWroteAConsoleApp
     {
         static void Main(string[] args)
         {
+            Trace.Listeners.Add(new TextWriterTraceListener(Console.Out));
+
             SayHello();
             SayGoodbye();
 
@@ -26,16 +29,6 @@ namespace LookMaIDoneWroteAConsoleApp
         private static void SayHello()
         {
             Console.WriteLine("Hello");
-        }
-    }
-
-    internal class TraceAttribute : Attribute
-    {
-        public string Category { get; private set; }
-
-        public TraceAttribute(string category)
-        {
-            Category = category;
         }
     }
 }
