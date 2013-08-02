@@ -5,4 +5,4 @@ using System.Text;
 using System.Threading.Tasks;
 using Multicasting;
 
-[assembly: LoggingAspect("category", AttributeTargetTypes = "Multicasting.*")]
+//[assembly: LoggingAspect("category", AttributeTargetTypes = "Multicasting.*")]

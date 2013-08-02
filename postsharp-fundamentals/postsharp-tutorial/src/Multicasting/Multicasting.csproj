@@ -52,6 +52,7 @@
     <Compile Include="JumpAround.cs" />
     <Compile Include="JumpUp.cs" />
     <Compile Include="LoggingAspect.cs" />
+    <Compile Include="MyAspectProvider.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequiresPostSharp.cs" />
