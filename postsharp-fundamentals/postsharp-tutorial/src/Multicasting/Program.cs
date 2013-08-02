@@ -8,8 +8,12 @@ namespace Multicasting
         {
             var somethings = new IDoSomething[]
                 {
-                    new JumpAround(), new JumpAround(), new JumpAround(), new JumpAround(),
-                    new JumpUp(), new JumpUp(),
+                    new JumpAround(), 
+                    new JumpAround(), 
+                    new JumpAround(), 
+                    new JumpAround(),
+                    new JumpUp(), 
+                    new JumpUp(),
                     new JumpDown(),
                     new Jump(),
                     new Jump(),
@@ -30,7 +34,7 @@ namespace Multicasting
                     new Jump(),
                 };
 
-            foreach (var s in somethings) s.DoSomething();
+            foreach (IDoSomething s in somethings) s.DoSomething();
             Console.ReadKey();
         }
     }
