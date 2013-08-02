@@ -1,11 +1,19 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using PostSharp.Patterns.Threading;
 
 namespace ThreadUnsafe
 {
-    public class CrazyQueue
+    // honestly not very interesting
+    //[ThreadUnsafe]
+    public class CrazyQueue// : Actor
     {
-        private readonly Queue<int> _queue = new Queue<int>();
+        private readonly Queue<int> _queue;
+
+        public CrazyQueue()
+        {
+            _queue = new Queue<int>();
+        }
 
         public void Enqueue(int i)
         {
