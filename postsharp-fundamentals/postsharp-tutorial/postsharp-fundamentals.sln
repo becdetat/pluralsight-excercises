@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inotifypropertychanged", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetailedTracing", "src\DetailedTracing\DetailedTracing.csproj", "{8D93B1AA-AECF-4A3A-8968-F516540D6859}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadUnsafe", "src\ThreadUnsafe\ThreadUnsafe.csproj", "{559FC8DD-5777-414A-8A93-858DA07F41AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D93B1AA-AECF-4A3A-8968-F516540D6859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559FC8DD-5777-414A-8A93-858DA07F41AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559FC8DD-5777-414A-8A93-858DA07F41AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559FC8DD-5777-414A-8A93-858DA07F41AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559FC8DD-5777-414A-8A93-858DA07F41AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
