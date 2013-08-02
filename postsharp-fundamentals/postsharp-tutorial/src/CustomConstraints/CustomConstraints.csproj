@@ -45,8 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessRule.cs" />
+    <Compile Include="BusinessRules.cs" />
     <Compile Include="BusinessRulePatternValidation.cs" />
+    <Compile Include="BusinessRuleUseValidation.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

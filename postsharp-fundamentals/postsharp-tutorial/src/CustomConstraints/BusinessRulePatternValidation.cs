@@ -21,5 +21,7 @@ namespace CustomConstraints
                     "2001", "The {0} type does not have a nested type named 'Factory'", targetType.Name);
             }
         }
+
+
     }
 }
