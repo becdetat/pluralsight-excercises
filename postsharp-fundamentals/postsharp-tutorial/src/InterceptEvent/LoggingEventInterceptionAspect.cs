@@ -23,7 +23,14 @@ namespace InterceptEvent
 
         public override void OnInvokeHandler(EventInterceptionArgs args)
         {
-            base.OnInvokeHandler(args);
+            try
+            {
+                base.OnInvokeHandler(args);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Handler threw an exception: {0}", ex.Message);
+            }
             Console.WriteLine("handler invoked");
         }
     }

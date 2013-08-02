@@ -22,10 +22,11 @@ namespace InterceptEvent
             EventHandler handler = (sender, eventArgs) => Console.WriteLine("MyEvent was raised");
 
             program.MyEvent += handler;
-            
             program.RaiseMyEvent();
-
             program.MyEvent -= handler;
+
+            program.MyEvent += (sender, eventArgs) => { throw new Exception("oh noes"); };
+            program.RaiseMyEvent();
 
             Console.ReadKey();
         }
