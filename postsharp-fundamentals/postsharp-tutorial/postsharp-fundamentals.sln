@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicasting", "src\Multica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptEvent", "src\InterceptEvent\InterceptEvent.csproj", "{A72DC42C-EAD4-4924-891E-2CA8437967A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatingParametersEtc", "src\ValidatingParametersEtc\ValidatingParametersEtc.csproj", "{61B32EA9-7D73-4652-A5FC-7E8FF406810F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{A72DC42C-EAD4-4924-891E-2CA8437967A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A72DC42C-EAD4-4924-891E-2CA8437967A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A72DC42C-EAD4-4924-891E-2CA8437967A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B32EA9-7D73-4652-A5FC-7E8FF406810F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B32EA9-7D73-4652-A5FC-7E8FF406810F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B32EA9-7D73-4652-A5FC-7E8FF406810F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B32EA9-7D73-4652-A5FC-7E8FF406810F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
