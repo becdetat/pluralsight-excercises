@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadUnsafe", "src\ThreadU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConstraints", "src\CustomConstraints\CustomConstraints.csproj", "{63B971AB-E4F6-4635-BF24-1358C1188310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicasting", "src\Multicasting\Multicasting.csproj", "{B5D9A6EF-EF78-4586-9BD4-1B9E7E2AC25E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{63B971AB-E4F6-4635-BF24-1358C1188310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B971AB-E4F6-4635-BF24-1358C1188310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B971AB-E4F6-4635-BF24-1358C1188310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D9A6EF-EF78-4586-9BD4-1B9E7E2AC25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D9A6EF-EF78-4586-9BD4-1B9E7E2AC25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D9A6EF-EF78-4586-9BD4-1B9E7E2AC25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D9A6EF-EF78-4586-9BD4-1B9E7E2AC25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
