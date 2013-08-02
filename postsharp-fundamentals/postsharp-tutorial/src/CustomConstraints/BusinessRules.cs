@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Controllers;
 using CustomConstraints;
+using PostSharp;
 
 namespace Controllers
 {
@@ -26,6 +27,12 @@ namespace Controllers
     }
 
     public class UncheckedBusinessRule : BusinessRule
+    {
+    }
+
+    [BusinessRulePatternValidation]
+    [IgnoreWarning("2001")]
+    public class FailingBusinessRuleWithWarningIgnored : BusinessRule
     {
     }
 }
