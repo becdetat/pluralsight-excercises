@@ -41,3 +41,11 @@ namespace NotControllers
     {
     }
 }
+
+namespace IgnoredNamespace
+{
+    [BusinessRulePatternValidation]
+    public class FailingBusinessRuleShouldBeIgnored : BusinessRule
+    {
+    }
+}

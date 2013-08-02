@@ -22,6 +22,13 @@ namespace CustomConstraints
             }
         }
 
+        public override bool ValidateConstraint(object target)
+        {
+            var targetType = (Type)target;
 
+            if (targetType.Namespace == "IgnoredNamespace") return false;
+
+            return true;
+        }
     }
 }
